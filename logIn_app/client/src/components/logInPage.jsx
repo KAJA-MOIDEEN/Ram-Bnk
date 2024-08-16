@@ -10,6 +10,7 @@ export default function logInPage() {
                         <h1 className="text-5xl font-bold"><span className="text-red-600">H</span>ello</h1>
                         <span className="py-4 text-xl w-2/3 text-center text-gray-5">Explore More by Connecting with Us...!</span>
                     </div>
+                    <form action="">
                     <div className="mt-4">
                         <input type="text" placeholder="Email" className="w-full px-3 py-2 text-gray-700 rounded-lg" />
                         <input type="password" placeholder="Password" className="w-full px-3 py-2 text-gray-700 rounded-lg mt-4" />
@@ -19,6 +20,7 @@ export default function logInPage() {
                             Sign In
                         </button>
                     </div>
+                    </form>
                 </div>
             </div>
         </div>
