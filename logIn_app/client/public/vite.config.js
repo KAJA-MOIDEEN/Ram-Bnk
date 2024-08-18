@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/Ram-Bnk/"
+  base: "https://ram-bnk.gokulappavu.com"
 })
